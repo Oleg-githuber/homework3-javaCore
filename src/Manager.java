@@ -2,8 +2,8 @@
  * Класс-руководитель
  */
 public class Manager extends Employee{
-     public Manager(String lastName, String firstName, String secondName, String position, String telephone, int age, double salary) {
-        super(lastName, firstName, secondName, position, telephone, age, salary);
+     public Manager(String lastName, String firstName, String secondName, String position, String telephone, int year, int month, int day, double salary) {
+        super(lastName, firstName, secondName, position, telephone, year, month, day, salary);
     }
 
     /**

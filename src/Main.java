@@ -16,12 +16,12 @@ public class Main {
     public static void main(String[] args) {
         // Инициализация сотрудников
         Employee[] workers = {
-                new Employee("Ivanov", "Ivan", "Ivanovich", "Worker", "111-111", 35, 30_000.0),
-                new Employee("Petrov", "Petr", "Petrovich", "Worker", "222-222", 18, 30_000.0),
-                new Employee("Sidorov", "Sidor", "Sidorovich", "Senior worker", "333-333", 55, 35_323.18),
-                new Employee("Kirkorov", "Philipp", "Bedrosovich", "Singer", "444-444", 57, 1_000_000.0),
-                new Employee("Biden", "Joseph", "Josephovich", "President", "666-666", 81, 999_999.99),
-                new Manager("Nechibylo", "Oleg", "Vasilievich", "Manager", "777-777", 54, 100_000)
+                new Employee("Ivanov", "Ivan", "Ivanovich", "Worker", "111-111", 1989, 5, 14, 30_000.0),
+                new Employee("Petrov", "Petr", "Petrovich", "Worker", "222-222", 2006, 12, 5, 30_000.0),
+                new Employee("Sidorov", "Sidor", "Sidorovich", "Senior worker", "333-333", 1970, 8, 11, 35_323.18),
+                new Employee("Kirkorov", "Philipp", "Bedrosovich", "Singer", "444-444", 1967, 4, 30, 1_000_000.0),
+                new Employee("Vasiliev", "Vasiliy", "Vasilievich", "Assistent", "666-666", 1954, 11, 20, 99_999.99),
+                new Manager("Nechibylo", "Oleg", "Vasilievich", "Manager", "777-777", 1977, 2, 22, 100_000)
         };
 
         // Повышение зарплаты сотрудникам

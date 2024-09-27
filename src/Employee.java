@@ -18,18 +18,17 @@ public class Employee implements Comparable<Employee> {
 
     private double salary;
 
-    public Employee(String lastName, String firstName, String secondName, String position, String telephone, int age, double salary) {
+    public Employee(String lastName, String firstName, String secondName, String position, String telephone, int year, int month, int day, double salary) {
         this.lastName = lastName;
         this.firstName = firstName;
         this.secondName = secondName;
         this.position = position;
         this.telephone = telephone;
-        this.age = age;
+        this.year = year;
+        this.month = month;
+        this.day = day;
         this.salary = salary;
-        year = 2024 - age;
-        Random random = new Random();
-        month = random.nextInt(8);
-        day = random.nextInt(28);
+        this.age = 2024 - year;
     }
 
     public String getLastName() {
